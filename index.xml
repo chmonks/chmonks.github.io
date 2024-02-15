@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Ye Kaisen&#39;s blog</title>
+        <link>https://xiyuii.github.io/</link>
+        <description>这是我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>3230100127@zju.edu.cn (Kaisen Ye)</managingEditor>
+            <webMaster>3230100127@zju.edu.cn (Kaisen Ye)</webMaster><lastBuildDate>Thu, 15 Feb 2024 19:18:58 &#43;0800</lastBuildDate>
+            <atom:link href="https://xiyuii.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>First_post</title>
+    <link>https://xiyuii.github.io/posts/first_post/</link>
+    <pubDate>Thu, 15 Feb 2024 19:18:58 &#43;0800</pubDate>
+    <author>Kaisen Ye</author>
+    <guid>https://xiyuii.github.io/posts/first_post/</guid>
+    <description><![CDATA[在《如何用hugo搭建个人博客》已经介绍了简单的主题引入办法，这里就不再赘述了。 现在我们来讲讲如何配置我们下载的新主题！（内容可能不多不全，]]></description>
+</item>
+</channel>
+</rss>
