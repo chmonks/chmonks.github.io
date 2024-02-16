@@ -20,7 +20,7 @@ If you find any issues or have any suggestions for improvement, feel free to sub
 
 If you'd like to get in touch with me or learn more, you can reach me through:
 
-- Email: yekaisen00@.com
+- Email: yekaisen00@gmail.com
 - GitHub: [xiyuii](https://github.com/xiyuii)
 
 ## Copyright Notice
