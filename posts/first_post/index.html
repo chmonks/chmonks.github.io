@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>First_post - Ye Kaisen&#39;s blog</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:title" content="First_post" />
-<meta property="og:description" content="在《如何用hugo搭建个人博客》已经介绍了简单的主题引入办法，这里就不再赘述了。 现在我们来讲讲如何配置我们下载的新主题！（内容可能不多不全，" />
+<meta property="og:description" content="Today, I have a fever, TAT. Despite this setback, I am delighted to announce that I have successfully created my personal blog using Hugo and the LoveIt theme (LoveIt).
+I have been resting in bed for most of the day, trying to recover.
+Although I am currently unwell, I am determined to return to Hangzhou on February 18th. However, I have not yet completed my tasks for the lesson on the situation and policy." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://xiyuii.github.io/posts/first_post/" /><meta property="og:image" content="https://xiyuii.github.io/logo.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-02-15T19:18:58+08:00" />
@@ -13,7 +15,9 @@
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://xiyuii.github.io/logo.png" /><meta name="twitter:title" content="First_post"/>
-<meta name="twitter:description" content="在《如何用hugo搭建个人博客》已经介绍了简单的主题引入办法，这里就不再赘述了。 现在我们来讲讲如何配置我们下载的新主题！（内容可能不多不全，"/>
+<meta name="twitter:description" content="Today, I have a fever, TAT. Despite this setback, I am delighted to announce that I have successfully created my personal blog using Hugo and the LoveIt theme (LoveIt).
+I have been resting in bed for most of the day, trying to recover.
+Although I am currently unwell, I am determined to return to Hangzhou on February 18th. However, I have not yet completed my tasks for the lesson on the situation and policy."/>
 <meta name="application-name" content="我的网站">
 <meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -28,7 +32,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/xiyuii.github.io\/posts\/first_post\/"
-        },"genre": "posts","wordcount":  6508 ,
+        },"genre": "posts","wordcount":  74 ,
         "url": "https:\/\/xiyuii.github.io\/posts\/first_post\/","datePublished": "2024-02-15T19:18:58+08:00","dateModified": "2024-02-15T19:18:58+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -102,235 +106,17 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">First_post</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Kaisen Ye</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-02-15">2024-02-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;6508 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;13 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-02-15">2024-02-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;74 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><p>在《如何用hugo搭建个人博客》已经介绍了简单的主题引入办法，这里就不再赘述了。</p>
-<p>现在我们来讲讲如何配置我们下载的新主题！（内容可能不多不全，Hugo的使用还在摸索阶段）</p>
-<p>下载主题前要先看主题的Demo，看是否是自己想要的。没有Demo示例给看那就clone下来后跑起来看看是不是中意的，但是有的clone到的主题有可能较精简，怎么办呢？往下看。</p>
-<p>选好中意的主题了，那么就一定要看作者的配置介绍，这个配置介绍一般都是介绍如何配置config.toml，但这个介绍可能不够全，那么就要自己看clone下来的主题中这个文件夹exampleSite中的config.toml。有的主题还有full-config.toml,这个内容更全面。以我使用的主题为例，路径结构为：themes\hello-friend-ng\exampleSite\config.toml</p>
-<p>接下来我将以我使用的主题为例，介绍config.toml配置内容</p>
-<p>[[menu.main]]
-identifier = &ldquo;blog&rdquo;
-name       = &ldquo;Blogs&rdquo;
-url        = &ldquo;/posts&rdquo;
-[[menu.main]]
-name       = &ldquo;Categories&rdquo;
-identifier = &ldquo;categories&rdquo;
-url        = &ldquo;/categories/&rdquo;
-[[menu.main]]
-identifier = &ldquo;tags&rdquo;
-name       = &ldquo;Tags&rdquo;
-url        = &ldquo;/tags/&rdquo;
-[[menu.main]]
-identifier = &ldquo;about&rdquo;
-name       = &ldquo;About&rdquo;
-url        = &ldquo;about/&rdquo;
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-有[[menu.main]]即配置导航菜单，对应的地方如图：</p>
-<p>[[params.social]]
-name = &ldquo;email&rdquo;
-url  = &ldquo;mailto:untilthecore@gmail.com&rdquo;</p>
-<p>[[params.social]]
-name = &ldquo;github&rdquo;
-url  = &ldquo;<a href="https://github.com/UntilTheCore%22" target="_blank" rel="noopener noreffer ">https://github.com/UntilTheCore"</a>
-1
-2
-3
-4
-5
-6
-7
-有[[params.social]]即配置图标链接，对应地方如图：</p>
-<p>baseurl      = &ldquo;<a href="https://untilthecore.github.io/%22" target="_blank" rel="noopener noreffer ">https://untilthecore.github.io/"</a>
-title        = &ldquo;My Blog&rdquo;
-languageCode = &ldquo;zh-Hans&rdquo;
-theme        = &ldquo;hello-friend-ng&rdquo;
-1
-2
-3
-4
-baseurl：配置站点基址，如果要放在github上或者自己的云服务器上，请正确配置地址，否则出了能访问主页，其他地方都是 404
-title：设置标题
-languageCode：设置语言
-theme：设置主题
-其他的小地方的配置有注释，配合本地服务器可以方面查看修改后的效果。</p>
-<p>第一次使用时，可能会好奇我们的 .md 文件是怎么产生标签（Tags）和分类（Categories）的？这就是通过使用hugo new posts/xxxxxx.md创建博客文件时，hugo自动为我们在文件头部生成了这些内容：</p>
-<p>title: &ldquo;正确使用hugo主题的姿势&rdquo;
-date: 2020-04-27T22:28:15+08:00
-draft: false
-tags: [&ldquo;Hugo&rdquo;]
-categories: [&ldquo;教程&rdquo;]
-1
-2
-3
-4
-5
-title：文章标题；
-data：文章被创建的事件
-draft：是否草稿内容，如果为true，将不显示在博客站点中。
-tags：为这篇文章创建标签，是数组形式[&ldquo;1&rdquo;,&ldquo;2&rdquo;,&ldquo;3&rdquo;]
-categories：为这篇文章创建分类，是数组形式[&ldquo;1&rdquo;,&ldquo;2&rdquo;,&ldquo;3&rdquo;]
-由于在文章这里设置了tags和categories,所以我们可以在导航菜单中看到标签和文章分类信息。</p>
-<p>在.md文件中，还可以设置更多其他的内容，比如设置版权信息等。有需要的话可以自行了解，我的经验就是多下几个主题，看看这些作者是怎么配置的。如果你有更多更好的信息，欢迎来信告诉我</p>
-<p>创建博客后如何配置主题的基础内容介绍完毕，配置好这些就可以愉快地写博客啦！如果想配置更多更强大的内容，可以多多翻看Hugo官方文档。</p>
-<p>写博客时要注意的点：
-可能在posts中使用MarkDown插入图片时好好的，但是上传到github上后图片就不显示了呢？这是由于我们写文章时是在站点生成器的环境中，而上传的代码是在public中，为了保证上传后依然能正确显示，我使用的技巧是在public文件夹中新建一个static的文件夹用来保存我们文章的图片，且每一文章有对应的文件夹去保存图片，如图：</p>
-<p>鉴于此，我们在posts/下写文章时使用的图片地址要以public/posts/文章标题/index.html为基准来找到public\static目录。一段示例：</p>
-<p>../../static/正确使用hugo主题的姿势/文章图片的保存方式.jpg
-1
-文章有误或不足之处，欢迎指正！谢谢！</p>
-<p>本文由UntilTheCore原创，转载请说明作者和出处！</p>
-<p>UntilTheCore
-关注</p>
-<p>2</p>
-<p>20</p>
-<p>1</p>
-<p>专栏目录
-hugo-theme-codex:雨果（Hugo）的最小博客主题
-03-18
-法典 为打造的最小博客主题 :steaming_bowl: 关于页面:waving_hand_light_skin_tone:和博客 :memo: 博客帖子可以被标记 :label: KaTex支持数学符号 :triangular_ruler: Sass / SCSS样式 :sparkles: 对Google Analytics（分析）的支持 :chart_increasing:和Disqus :speech_balloon: i18n支持 先决条件 Hugo扩展版本（用于Sass / SCSS支持）。 对于macOS用户，如果使用homebrew ，则默认安装扩展版本。 对于Windows用户，您可以使用choco进行安装： choco install hugo-extended -confirm 入门 在您的Hugo项目的根目录中，运行： git submodule add <a href="https://github.com/jakewies/hugo-theme-codex.git" target="_blank" rel="noopener noreffer ">https://github.com/jakewies/hugo-theme-codex.git</a> themes/hugo-theme-codex 接下来，将的内容复制到站点的config.toml
-GoMDL:使用MDL的Hugo主题
-05-16
-GoMDL 使用MDL的Hugo主题。 屏幕截图 桌面 移动的 列表显示 帖子查看 演示版 如何制作演示 按照Hugo的创建一个新站点。 将此仓库克隆到您的themes目录。 将exampleSite中的文件复制到站点目录，然后删除或重命名默认的config.toml 。 hugo server 配置（ config.toml ） baseURL : &quot; <a href="http://xugr.me/GoMDL" target="_blank" rel="noopener noreffer ">http://xugr.me/GoMDL</a> &quot; relativeURLS : true canonifyURLs : false title : &quot; Cerulean &quot; theme : &quot; GoMDL &quot; permalinks : post : /post/:year/:month/:title/ page : /:filename/ taxonomies : tag : &quot; tags &quot; preserveTaxo
-1 条评论
-Xi-Jun博客
-热评
-您好，想请教一下，在config.toml配置内容中代码blog、categories、tags、about的排序和在网页中的顺序不一致，如何实现对[[menu.main]]下导航菜单的排序，谢谢。
-写评论
-使用Hugo创建博客站点
-2-2
-brew install hugo hugo new site tomo.dev cdtomo.dev 安装主题 可以从Hugo主题站点寻找满意的主题,这边使用是一款Hello Friend主题。 gitclonehttps://github.com/panr/hugo-theme-hello-friend.git themes/hello-friend 参考该主题的&hellip;
-&hellip;中的template,方能驾驭得了Hugo主题的template_hugo theme&hellip;
-2-6
-不置可否,Hugo的template同样是使用golang的标准库html/template。为了能实现一个属于自己独特的Hugo theme,或是修改他人的主题,都得对其模板语法有所知晓,方能改的称心如意,亦或是制作出一套即简约,又不失典雅的Hugo theme。 创建gola&hellip;
-一套由 Hugo 驱动的博客主题 hugo-theme-kiwi 开源啦
-仗剑行于江湖，执笔记江湖事。
-976
-自没再为云服务器续费那会儿起，便选用了由Hugo驱动的博客主题，来迁移上的所有文章，然而，在众多Hugo博客主题之列，竟找不出一套属于自己想要的风格的主题，故而，也只能暂且套用了一个还算可以的博客主题。那套没有博客风格的主题，终究是会被替换的，一切都只是时间问题。可没想到的是，暂时选用那套博客主题，竟然暂时了这么久，这一搁就是好几个月了。还记得，云服务器到期是在 6 月 20 日，那是一个盛夏的季节，可如今呢，却是一个寒冬腊月、冷风凌冽、大雪纷飞的残冬时节，我不禁感叹，时间真的过的好快啊！
-从零开始：学习使用 Hugo 构建自己的静态网站
-蜗牛的博客
-1527
-Hugo 是一个由 Go 语言编写的静态网站生成器。它可以帮助用户快速构建高性能的静态网站，特别是博客、文档和个人网站等。与其他静态网站生成器相比，Hugo 的特点是速度快、易于使用、可扩展性强等。Hugo 使用简单的 Markdown 和 HTML 等标记语言来创建内容，并使用 Go 语言的模板引擎来自定义主题和布局。Hugo 的优点还包括其跨平台性、低资源消耗和易于维护等。由于其快速编译和生成速度，Hugo 成为了流行的静态网站生成器之一。
-从Hexo迁移到Hugo附送漂亮的Hugo Theme主题_hugo themes
-2-2
-hugo version 如果没问题的话,会输出Hugo的版本号等一些信息。 创建一个站点 1 hugonewsite blog 添加一个主题 1 2 3 4 5 6 7 cd blog;\ git init;\ git submoduleaddhttps://github.com/budparr/gohugo-theme-ananke.git &hellip;
-如何给不同theme的Hugo添加评论系统gitalk
-2-2
-方式一,直接引用Hugo的主题 如果您是直接下载使用的主题,只需要四大步骤 1.为主题添加gitalk.html模板 路径地址 |airspace-hugo/layouts/partials/gitalk.html {{ if .Site.Params.enableGitalk }}constgitalk=newGitalk({clientID:&rsquo;{&hellip;
-玩遍博客网站，我整理了 Hugo 及其流行的风格主题
-qq__________qq的博客
-2077
-搭建博客网站是个人进入互联网世界的最常见方式之一。伴随着网站技术的发展，如何搭建博客网站已经变得非常容易了。当然，你可以选择诸如 新浪博客、CSDN、博客园 之类的大型网站，快速创建依赖于大平台的个人博客，不过这种方式的不足是言论受限太多、无法触及网站底层技术。所以，对于想要自由发挥创意、又期望对网站拥有更多主动权的话，最好还是选择自己去亲手搭建一个网站。 本文来源：魚立说。本文链接：https://www.yulisay.com/d/nkpvy.html，支持微信浏览器打开。 更多精彩文章，请移步 魚立说
-从零构建Hugo主题 - I
-最新发布
-tomo的专栏
-1353
-使用Tailwind从零构建Hugo主题第一部分，包括主题的功能列表，原型图，技术选型，开发环境搭建等。这是一个系列博客，记录了我从零开始构建Hugo主题的过程。
-使用Github(Action)+Hugo搭建自己的博客_hugo theme
-2-7
-hugo new site blog 1 或者进入blog文件夹内直接输入以下语句: hugo new site. 1 下载主题 可以在hugo theme下载主题,然后根据主题的文档进行配置 放到站点文件夹themes内,配置config.toml
-[译]Hugo-Theme-PaperMod主题文档 安装 | 升级
-2-8
-hugo new site <!-- raw HTML omitted --> -f yml 确保安装最新版本的<strong>hugo(&gt;=0.82.0)</strong>。 创建新站点后,在Step 3执行以下步骤: 方法一 在Hugo 站点的文件夹中,运行: gitclone <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener noreffer ">https://github.com/adityatelange/hugo-PaperMod</a> themes&hellip;
-Hugo博客个性化主题开发踩坑记录（一）
-Ceichaos的博客
-788
-个性化博客主题开坑记录，哎嘿(๑•̀ㅂ•́)و✧ 博文分类，分页面进行展示 新建空白主题 主题下，模板分类存放 文件夹下再分类 创建文章 设置博文归属 &mdash; title: &ldquo;blog1&rdquo; date: 2022-01-06T15:44:53+08:00 draft: false series: blog &mdash; 列表页模板对应博文文件夹名称 单页文章模板使用默认名称 Config.Toml里主页路径配置 [menu] name=&ldquo;首页&rdquo; &hellip;
-Hugo 的使用&amp;配置中有那些技巧与坑？
-ccviolett的博客
-1334
-去我的博客查看更多好文章，本文的博客地址。 零、安装 这里以 Windows 下安装为例。 直接在 Release 页面 下载对应平台压缩包，解压后将路径添加到系统 PATH 中，或者直接将 hugo.exe 扔进 C:\Windows\System 中。 一、使用 新建网站：hugo new site myblog 新建文章：hugo new posts/xxxx.md 本地服务器预览：hugo server，随后可以通过访问本地端口预览。 生成静态文件：hugo，随后可在 public 文件夹中得到渲染
-【Hugo】Stack主题的使用记录
-Shadow Kylin的博客
-790
-Hugo的Stack主题的使用记录
-分享一个简洁、优雅且高效的 Hugo 博客主题 - FixIt
-博採眾長
-9396
-FixIt 是一个简洁、优雅且高效的 Hugo 博客主题。
-hugo博客搭建 | PaperMod主题
-Xym&rsquo;s Blog
-2437
-文章目录1.安装hugo2.新建站点3.下载主题4.配置文件5.目录设置6.启动博客7.写文章 博客原文：【置顶】hugo博客搭建 | PaperMod主题 1.安装hugo windows用户可以先去官网下载hugo框架，hugo官网地址， 苹果用户有安装HomeBrew工具的话可以直接输入brew install hugo进行安装。 下载完成后检查是否安装成功，输入: hugo version，若出现版本信息则表示安装成功。 2.新建站点 输入hugo new site hugoblog ，就会在h
-blogge-hugo-theme：Blogge是一个简洁，最小的Blog hugo主题，适合具有轻松创意功能和特效并希望创建个人博客网站以使读者享受阅读博客文章和博客乐趣的人
-02-14
-雨果博客 Blogge是一个干净，最小的博客雨果主题，适合那些具有轻松创意功能和特效的人，他们想要创建一个个人博客网站以使读者享受阅读博客文章和博客的乐趣。 目录 现场演示 在签出现场演示 安装 导航到Hugo网站中的主题文件夹，然后使用以下命令： $ mkdir themes $ cd themes $ git clone <a href="https://github.com/StaticMania/blogge-hugo-theme.git" target="_blank" rel="noopener noreffer ">https://github.com/StaticMania/blogge-hugo-theme.git</a> 特征 响应就绪。 由Bootstrap 4。 博客模板。 格式正确的代码。 易于定制。 大礼包联系表格。 谷歌分析。 专为个人博客撰写 功能齐全的Blog主题 支持 如有任何疑问或遇到任何技术问题，请随时 发牌 此存储库是根据许可授权的 聘请 需要帮助以您的自定义要求构建HUGO网站。 请随时我们。 我们为HUGO提供定制开发服务。
-hugo-theme-stack：为博客作者设计的卡片式Hugo主题
-02-04
-雨果主题栈 卡风格的雨果主题，专为博主设计。 演示版 文档和更多信息 | 介绍 Stack是一个简单的卡片式Hugo主题，专为博客作者设计，其某些功能包括： 响应图像支持 延迟加载图像 暗模式 本地搜寻 集成 存档页面模板 完全本机JavaScript，不使用jQuery或任何其他框架 没有CSS框架，请保持简洁和最小化 正确裁剪的缩略图 小节支持 要求 必须使用Hugo≥0.78.0 。 如果要执行以下操作，请使用Hugo扩展版本（推荐）： 使用master分支中的最新功能/修复 编辑SCSS文件 编译CSS每个版本更新一次。 安装 将该库克隆/下载到theme文件夹，然后根据ex
-hugo-goa, Hugo的简单简约主题.zip
-10-09
-hugo-goa, Hugo的简单简约主题 Goa是博客和个人网站的简洁。简单和简约的主题。 演示你可以在这里找到演示站点 ，这里是源代码，这里是源服务器。安装从你的博客的root:mkdir -p themescd themes
-Hugo 主题非常适合组织使用 最初是为TODO网站重新设计而构建的
-12-31
-这个 Hugo 主题非常适合为小型组织的网站提供动力。它最初是为TODO集团建造的，具有以下优势：现代 - 简单而有效的现代设计。可访问 - 设计和标记符合 WCAG 2.1 AA 准则。高性能 - 从头开始编写的 HTML/CSS/JS 尽&hellip;
-hugo-bootstrap-5:使用 Bootstrap 5 的简单 Hugo 主题
-05-29
-这是一个使用的简单 Hugo 主题，灵感来自 。 安装 您可以将主题安装为克隆或子模块。 我推荐后者。 从 Hugo 站点的根目录，键入以下内容： $ git submodule add &hellip;
-hugo-geekdoc：Hugo主题用于文档
-02-04
-Geekdoc是文档的一个简单的Hugo主题。 它是故意设计为快速而精简的主题，可能不适合复杂项目的要求。 如果需要功能更完整的主题，则有很多替代品。 您可以在找到演示和完整文档。 构建和发布过程 此主题受软件开发&hellip;
-hugo-purus:纯粹，简单且简约的Hugo主题
-05-24
-hugo-purus：Hugo的纯粹主题 purus （拉丁语为“ pure”）是为提供动力的主题。 它为您提供了您可能渴望的关于的简洁体验。 买者自负 我是Hugo的新手，也是撰写主题的新手。 如果您认为可以更一般或更优雅地解决某些&hellip;
-GitHub的使用操作
-weixin_63604047的博客
-2674
-GitHub的使用和介绍
-vscode hugo 为跟踪
-09-13
-要在VSCode中使用Hugo进行跟踪，您可以使用GoHugo扩展。该扩展提供了一些命令，可以帮助您执行各种Hugo任务。 首先，请确保您已安装了GoHugo扩展。然后，您可以打开VSCode的命令面板（Ctrl + Shift + P）并输入 &ldquo;Hugo&rdquo; 来查看可用的命令。 以下是一些常用的命令示例： - &ldquo;Hugo: Get Version&rdquo;：获取Hugo命令的版本信息。 - &ldquo;Hugo: New Site&rdquo;：创建一个新的Hugo项目，并将其添加到工作区。 - &ldquo;Hugo: Add Theme&rdquo;：选择一个主题并将其添加到您的Hugo项目中。 - &ldquo;Hugo: Serve&rdquo;：使用Hugo本地服务器在浏览器中预览您的网站。 您可以根据您的需要使用这些命令来管理和跟踪您的Hugo项目。此外，您还可以通过参考中提供的链接获取更多关于Hugo和GoHugo扩展的信息。 希望这些信息能帮助到您！如果您还有其他问题，请随时提问。
-“相关推荐”对你有帮助么？</p>
-<p>非常没帮助</p>
-<p>没帮助</p>
-<p>一般</p>
-<p>有帮助</p>
-<p>非常有帮助
-关于我们
-招贤纳士
-商务合作
-寻求报道</p>
-<p>400-660-0108</p>
-<p><a href="mailto:kefu@csdn.net" rel="">kefu@csdn.net</a></p>
-<p>在线客服
-工作时间 8:30-22:00
-公安备案号11010502030143
-京ICP备19004658号
-京网文〔2020〕1039-165号
-经营性网站备案信息
-北京互联网违法和不良信息举报中心
-家长监护
-网络110报警服务
-中国互联网举报中心
-Chrome商店下载
-账号管理规范
-版权与免责声明
-版权申
-————————————————</p>
-<pre><code>                        版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
-</code></pre>
-<p>原文链接：https://blog.csdn.net/UntilTheCore/article/details/105806863</p>
+            </div><div class="content" id="content"><p>Today, I have a fever, TAT. Despite this setback, I am delighted to announce that I have successfully created my personal blog using Hugo and the LoveIt theme (<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer ">LoveIt</a>).</p>
+<p>I have been resting in bed for most of the day, trying to recover.</p>
+<p>Although I am currently unwell, I am determined to return to Hangzhou on February 18th. However, I have not yet completed my tasks for the lesson on the situation and policy.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
