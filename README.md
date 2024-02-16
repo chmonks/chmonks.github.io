@@ -10,7 +10,7 @@ Welcome to my personal blog! This is where I document my university life, learni
 
 ## How to Use
 
-If you're interested in my blog, feel free to visit the (xiyu.github.io).
+If you're interested in my blog, feel free to visit the (xiyuii.github.io).
 
 ## Contribution
 
